@@ -1,21 +1,19 @@
-@media screen and (min-width: 768px) {
-  .column {
+.column {
     width: 460px;
     float: left;
     padding: 5px;
-    border: 5px solid #000;
+    border: 5px solid red;
+  }
+
+@media screen and (max-width: 480px) and (min-width: 300px) {
+  body {
+    background-color: #EEE8AA;
   }
 }
 
-@media screen and (max-width: 768px) and (min-width: 600px) {
+@media screen and (max-width: 1000px) and (min-width: 700px){
   body {
     background-color: #000;
     color: #fff;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  body {
-    background-color: #32CD32;
   }
 }
